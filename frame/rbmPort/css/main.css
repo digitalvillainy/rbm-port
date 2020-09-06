@@ -1,0 +1,60 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* Global Styling */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    @apply bg-gray-100;
+}
+
+.main {
+    flex: 1 0 auto;
+    @apply text-base text-center mt-56;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.logo-font {
+    font-family: 'Kanit', sans-serif;
+}
+
+header {
+    @apply z-50;
+}
+
+h1 {
+    @apply text-6xl;
+}
+
+h2 {
+    @apply text-5xl;
+}
+
+h3 {
+    @apply text-4xl;
+}
+
+h4 {
+    @apply text-3xl;
+}
+
+h5 {
+    @apply text-2xl;
+}
+
+h6 {
+    @apply text-xl;
+}

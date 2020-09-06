@@ -1,0 +1,34 @@
+{
+  "name": "neoan3",
+  "version": "1.0.0",
+  "description": "PHP7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-styles": "cat frame/rbmPort/css/*.css | postcss > frame/rbmPort/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sroehrl/neoan3.git"
+  },
+  "keywords": [
+    "neoan3",
+    "custom-element",
+    "php"
+  ],
+  "author": "Stefan Roehrl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sroehrl/neoan3/issues"
+  },
+  "homepage": "https://github.com/sroehrl/neoan3#readme",
+  "dependencies": {
+    "alpinejs": "^2.6.0",
+    "autoprefixer": "^9.8.5",
+    "axios": "^0.19.2",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.7.6"
+  }
+}

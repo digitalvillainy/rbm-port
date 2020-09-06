@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "title": "EMPOWERED CLIENTS",
+      "description": "Regardless of the scale of your project, Red Banner Media will always empower clients with the knowledge they need to make informed decisions on how to scale their business with technology. Every consultation will be provided a customized Road Map to determine the best growth for your business.",
+      "link": "empowered-clients",
+      "img": "./asset/servicesStock/empoweredClients.jpeg"
+    },
+    {
+      "title": "WEB DEVELOPMENT",
+      "description": "Web sites are the new face of a business. We leverage new technology to help give your companies website the user experience that draws new customers.",
+      "link": "web-development",
+      "img": "./asset/servicesStock/webDev.jpeg"
+    },
+    {
+      "title": "SEO",
+      "description": "We empower your business with the necessary tools to begin your journey into Search Engine Optimization. Making it easier for your customers to find and share your services with others.",
+      "link": "search-engine-optimization",
+      "img": "./asset/servicesStock/SEO.jpeg"
+    },
+    {
+      "title": "USER EXPERIENCE",
+      "description": "From phones to an Ultra-wide desktop monitor, your site will work on any modern device. Making sure that your users never feel alienated.",
+      "link": "user-experience",
+      "img": "./asset/servicesStock/userExp.jpeg"
+    },
+    {
+      "title": "CUSTOMER OUTREACH",
+      "description": "Red Banner Media can provide you with the necessary tools to communicate to customers old and new about what your business provides.",
+      "link": "customer-outreach",
+      "img": "./asset/servicesStock/customerOutreach.jpeg"
+    },
+    {
+      "title": "ECOMMERCE",
+      "description": "We can provide you the tools to sell your goods and services online where users will always be able to find them.",
+      "link": "ecommerce",
+      "img": "./asset/servicesStock/ecommerce.jpeg"
+    },
+    {
+      "title": "ADA COMPLIANCE",
+      "description": "Regardless of your users impairment, Red Banner Media will make your website easily accessible to those with Disabilities.",
+      "link": "ada-compliance",
+      "img": "./asset/servicesStock/adaCompliance.jpeg"
+    },
+    {
+      "title": "ACTIVE PARTICIPATION",
+      "description": "There won't be a part of our process that you don't understand. We actively inspire all of our clients to comment, test and add to the road map to their success.",
+      "link": "active-participation",
+      "img": "./asset/servicesStock/activeParticipation.jpeg"
+    }
+  ]
+}

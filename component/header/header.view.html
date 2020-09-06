@@ -1,0 +1,100 @@
+<!--TODO: Remove Comments on navbar with new Portfolio items-->
+<section x-data="navBar()"
+         class="relative top-0 left-0 z-40"
+         @click.away="state = false">
+    <div class="flex flex-row bg-red-900 justify-between text-white transform -skew-y-3 -translate-y-8
+                border-b-4 border-yellow-500 shadow-xl h-40 min-w-full px-2 absolute top-0 left-0">
+        <div class="flex flex-row justify-start h-56">
+            <img src="./asset/RedBannerMedia_Logo.png"
+                 class="h-40 w-20 md:h-56 md:w-24 mt-5 sm:self-center md:self-end"
+                 alt="Red Banner Media">
+            <div class="flex flex-col justify-start self-start py-6 text-yellow-500 logo-font text-2xl select-none">
+                <span class="px-2 shadow-2xl">
+                    RED
+                </span>
+                <span class="px-2 shadow-2xl">
+                    BANNER
+                </span>
+                <span class="px-2 shadow-2xl">
+                    MEDIA
+                </span>
+            </div>
+        </div>
+        <ul class="flex-row hidden lg:flex px-3 justify-between self-end text-3xl logo-font text-yellow-500 select-none">
+            <li class="px-3 self-center cursor-pointer hover:bg-yellow-200 hover:bg-opacity-25">
+                <a href="./#services">
+                    SERVICES
+                </a>
+            </li>
+<!--            <li class="px-3 self-center cursor-pointer hover:bg-yellow-200 hover:bg-opacity-25">-->
+<!--                <a href="./#About">-->
+<!--                    PORTFOLIO-->
+<!--                </a>-->
+<!--            </li>-->
+            <li class="px-3 self-center cursor-pointer hover:bg-yellow-200 hover:bg-opacity-25">
+                <a href="./#Contact">
+                    CONTACT
+                </a>
+            </li>
+            <li class="px-3 self-center cursor-pointer hover:bg-yellow-200 hover:bg-opacity-25">
+                <a href="./#Contact">
+                    BLOG
+                </a>
+            </li>
+        </ul>
+        <div class="flex flex-col justify-center self-end lg:hidden pb-3">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="fill-current text-yellow-500 h-10 w-10"
+                 x-show="!state"
+                 @click="open"
+                 viewBox="0 0 20 20">
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+            </svg>
+        </div>
+        <div class="flex flex-col justify-center self-end lg:hidden pb-3"
+             @click="state = false"
+             x-show="state">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 class="fill-current text-yellow-500 h-10 w-10"
+                 viewBox="0 0 20 20">
+                <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/>
+            </svg>
+        </div>
+    </div>
+    <div class="w-full flex flex-row justify-end absolute bottom-auto mt-40"
+         x-show="state">
+        <ul class="text-yellow-500 flex flex-col sm:flex-row justify-around transform -skew-y-3 -translate-y-10
+                   bg-red-900 text-2xl px-3 py-4 cursor-pointer sm:w-10/12 select-none">
+            <li class="self-center px-3 cursor-pointer hover:bg-yellow-200 hover:bg-opacity-25">
+                <a href="./#services">
+                    SERVICES
+                </a>
+            </li>
+<!--            <li class="self-center px-3 cursor-pointer hover:bg-yellow-200 hover:bg-opacity-25">-->
+<!--                <a href="./#About">-->
+<!--                    PORTFOLIO-->
+<!--                </a>-->
+<!--            </li>-->
+            <li class="self-center px-3 cursor-pointer hover:bg-yellow-200 hover:bg-opacity-25">
+                <a href="./#Contact">
+                    CONTACT
+                </a>
+            </li>
+            <li class="px-3 self-center px-3 cursor-pointer hover:bg-yellow-200 hover:bg-opacity-25">
+                <a href="./#Contact">
+                    BLOG
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+<script>
+    function navBar() {
+        return {
+            state: false,
+            open() {
+                this.state = !this.state;
+            }
+        }
+    }
+</script>

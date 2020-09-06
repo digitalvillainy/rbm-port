@@ -1,0 +1,34 @@
+<section class="w-full flex flex-col justify-center">
+    <div class="w-full">
+        <h3 class="logo-font">
+            Web sites are the new store front. . .
+        </h3>
+        <p class="w-3/6 mx-auto text-justify">
+            Every decision when creating your business is important. The wrong decision can take
+            years to undo. Having a well-crafted website that not only caters to your customers but
+            to how your business works can set you up for success.
+        </p>
+    </div>
+    <div class="flex flex-row flex-wrap justify-center w-11/12 mx-auto my-5"
+         id="Services">
+        <div class="rounded-lg shadow-lg py-4 m-3 w-full lg:w-2/6 xl:w-1/5"
+             n-for="cards in card">
+            <button class="bg-green-700 hover:bg-green-400 text-white rounded-t-lg
+                           px-4 w-full cursor-pointer text-xl">
+                <a href="./{{card.link}}">{{card.title}}</a>
+            </button>
+            <img src="{{card.img}}" alt="{{card.description}}">
+            <p class="text-base px-4 border-solid border-t-2 border-gray-600">
+                {{card.description}}
+            </p>
+        </div>
+    </div>
+    <div class="flex flex-row flex-wrap justify-center w-11/12 mx-auto my-5"
+         n-for="ports as key => port"
+         n-if="key > 0"
+         id="Portfolio">
+        <h3 class="logo-font">
+            Portfolio
+        </h3>
+    </div>
+</section>
