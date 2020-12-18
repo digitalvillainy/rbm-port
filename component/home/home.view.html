@@ -13,22 +13,39 @@
          id="Services">
         <div class="rounded-lg shadow-lg py-4 m-3 w-full lg:w-2/6 xl:w-1/5"
              n-for="cards in card">
-            <button class="bg-green-700 hover:bg-green-400 text-white rounded-t-lg
-                           px-4 w-full cursor-pointer text-xl">
-                <a href="./{{card.link}}">{{card.title}}</a>
-            </button>
+            <div class="bg-green-700 text-white rounded-t-lg
+                           px-4 w-full text-xl">
+                {{card.title}}
+            </div>
             <img src="{{card.img}}" alt="{{card.description}}">
             <p class="text-base px-4 border-solid border-t-2 border-gray-600">
                 {{card.description}}
             </p>
         </div>
     </div>
+    <h3 class="logo-font w-full">
+        Portfolio
+    </h3>
     <div class="flex flex-row flex-wrap justify-center w-11/12 mx-auto my-5"
-         n-for="ports as key => port"
-         n-if="key > 0"
          id="Portfolio">
-        <h3 class="logo-font">
-            Portfolio
-        </h3>
+        <div class="rounded-lg shadow-lg py-4 m-3 w-full lg:w-2/6 xl:w-1/5"
+             n-for="ports as key => port">
+            <div class="bg-green-700 hover:bg-green-400 text-white rounded-t-lg
+                           px-4 w-full text-xl">
+                <a href="{{port.link}}" target="_blank">
+                    {{port.title}}
+                </a>
+            </div>
+            <img src="{{port.img}}" alt="{{port.description}}">
+            <p class="text-base px-4 border-solid border-t-2 border-gray-600">
+                {{port.description}}
+            </p>
+            <div class="w-full flex flex-row"
+                 n-if="port.icon > 0">
+                <a href="port.link">
+                    <img src="{{port.icon}}" alt="{{port.title}}">
+                </a>
+            </div>
+        </div>
     </div>
 </section>

@@ -18,7 +18,7 @@ return array(
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src/Prophecy'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'Neoan3\\Core\\' => array($baseDir . '/_neoan/base'),
-    'Neoan3\\Apps\\' => array($vendorDir . '/neoan3-apps/curl', $vendorDir . '/neoan3-apps/db', $vendorDir . '/neoan3-apps/hcaptcha', $vendorDir . '/neoan3-apps/template', $vendorDir . '/neoan3-apps/transformer'),
+    'Neoan3\\Apps\\' => array($vendorDir . '/neoan3-apps/curl', $vendorDir . '/neoan3-apps/db', $vendorDir . '/neoan3-apps/template', $vendorDir . '/neoan3-apps/transformer', $vendorDir . '/neoan3-apps/hcaptcha'),
     'Neoan3\\Api\\' => array($baseDir . '/_neoan/api'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),

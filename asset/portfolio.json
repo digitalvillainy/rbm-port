@@ -1,4 +1,11 @@
 {
   "ports": [
+    {
+      "title": "WriterBoards",
+      "description": "An online community that empowers writers to write everyday and collaborate. Click to find out more",
+      "img": "./asset/writerboards.jpg",
+      "link": "https://writerboards.com",
+      "icon":""
+    }
   ]
 }

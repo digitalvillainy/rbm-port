@@ -3,7 +3,6 @@
 namespace Neoan3\Core;
 
 use Neoan3\Apps\Template;
-
 /**
  * Class Serve
  * @package Neoan3\Core
