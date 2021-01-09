@@ -30,19 +30,19 @@
          id="Portfolio">
         <div class="rounded-lg shadow-lg py-4 m-3 w-full lg:w-2/6 xl:w-1/5"
              n-for="ports as key => port">
-            <div class="bg-green-700 hover:bg-green-400 text-white rounded-t-lg
-                           px-4 w-full text-xl">
-                <a href="{{port.link}}" target="_blank">
+            <a href="{{port.link}}" target="_blank">
+                <div class="bg-green-700 hover:bg-green-400 text-white rounded-t-lg
+                           px-4 w-full text-xl cursor-pointer">
                     {{port.title}}
-                </a>
-            </div>
+                </div>
+            </a>
             <img src="{{port.img}}" alt="{{port.description}}">
             <p class="text-base px-4 border-solid border-t-2 border-gray-600">
                 {{port.description}}
             </p>
             <div class="w-full flex flex-row"
                  n-if="port.icon > 0">
-                <a href="port.link">
+                <a href="{{port.link}}">
                     <img src="{{port.icon}}" alt="{{port.title}}">
                 </a>
             </div>

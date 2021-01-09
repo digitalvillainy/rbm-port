@@ -35,5 +35,4 @@ class Home extends Unicore
             ])
             ->output();
     }
-
 }

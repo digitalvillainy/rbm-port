@@ -3,8 +3,15 @@
     {
       "title": "WriterBoards",
       "description": "An online community that empowers writers to write everyday and collaborate. Click to find out more",
-      "img": "./asset/writerboards.jpg",
+      "img": "./asset/writerboards.jpeg",
       "link": "https://writerboards.com",
+      "icon":""
+    },
+    {
+      "title": "Ornate CSS",
+      "description": "An open-source grid-based css framework. Visit To find out more.",
+      "img": "./asset/servicesStock/cssCode.jpeg",
+      "link": "https://github.com/digitalvillainy/ornate",
       "icon":""
     }
   ]
