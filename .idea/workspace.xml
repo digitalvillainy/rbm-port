@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="481c6a97-b356-4050-9053-1d539ba72b2b" name="Default Changelist" comment="large update">
+    <list default="true" id="481c6a97-b356-4050-9053-1d539ba72b2b" name="Default Changelist" comment="workspace tracking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/portfolio.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset/portfolio.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm" value="WSL" />
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm" value="WSL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../v2Test" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -172,7 +173,13 @@
       <workItem from="1610225448970" duration="8262000" />
       <workItem from="1610307979324" duration="7086000" />
       <workItem from="1610360310723" duration="2437000" />
-      <workItem from="1610461861403" duration="6963000" />
+      <workItem from="1610461861403" duration="7043000" />
+      <workItem from="1610501864010" duration="44000" />
+      <workItem from="1610983249979" duration="28000" />
+      <workItem from="1611006630204" duration="106000" />
+      <workItem from="1611078291107" duration="851000" />
+      <workItem from="1611613597573" duration="40000" />
+      <workItem from="1612143959873" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="large update">
       <created>1610232031260</created>
@@ -181,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610232031260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workspace tracking">
+      <created>1610474711288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610474711288</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="large update" />
-    <option name="LAST_COMMIT_MESSAGE" value="large update" />
+    <MESSAGE value="workspace tracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace tracking" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
