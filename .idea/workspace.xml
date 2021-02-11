@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="481c6a97-b356-4050-9053-1d539ba72b2b" name="Default Changelist" comment="workspace tracking">
+    <list default="true" id="481c6a97-b356-4050-9053-1d539ba72b2b" name="Default Changelist" comment="update to portoflio links">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/portfolio.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset/portfolio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/contact/Contact.ctrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/component/contact/Contact.ctrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/contact/contact.ce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/footer/footer.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/component/footer/footer.view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/header/header.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/component/header/header.view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/home/home.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/home.view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/rbmPort/RbmPort.php" beforeDir="false" afterPath="$PROJECT_DIR$/frame/rbmPort/RbmPort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame/rbmPort/axios-wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/frame/rbmPort/axios-wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +123,7 @@
     <property name="credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm" value="WSL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../v2Test" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -179,7 +189,11 @@
       <workItem from="1611006630204" duration="106000" />
       <workItem from="1611078291107" duration="851000" />
       <workItem from="1611613597573" duration="40000" />
-      <workItem from="1612143959873" duration="135000" />
+      <workItem from="1612143959873" duration="4189000" />
+      <workItem from="1612188339248" duration="25000" />
+      <workItem from="1612990218724" duration="934000" />
+      <workItem from="1612991185204" duration="10963000" />
+      <workItem from="1613024931181" duration="3977000" />
     </task>
     <task id="LOCAL-00001" summary="large update">
       <created>1610232031260</created>
@@ -195,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610474711288</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update to portoflio links">
+      <created>1612144112031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612144112031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +238,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="large update" />
     <MESSAGE value="workspace tracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace tracking" />
+    <MESSAGE value="update to portoflio links" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to portoflio links" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

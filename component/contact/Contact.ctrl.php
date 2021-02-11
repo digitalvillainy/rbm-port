@@ -27,13 +27,12 @@ class Contact extends RbmPort{
         $human = Hcapture::isHuman($emailForm);
         if ($human) {
             $this->credentials = getCredentials();
-            $emailSettings = $this->credentials['rbm_mail'];
             $apiKey = $this->credentials['rbm_sendgrid']['SENDGRID_API_KEY'];
 
             $email = new Mail();
             $email->setFrom($emailForm['clientEmail'], "Potential Client");
             $email->setSubject($emailForm['subject']);
-            $email->addTo($emailSettings['Username'], "Roberto Rivera");
+            $email->addTo('rrivera@redbannermedia.com', "Roberto Rivera");
             $email->addContent("text/plain", $emailForm['body']);
             $sendgrid = new SendGrid($apiKey);
 

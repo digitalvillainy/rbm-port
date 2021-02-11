@@ -2,7 +2,7 @@
 #Options +FollowSymLinks
 RewriteEngine On
 
-RewriteBase /rbm-port/
+RewriteBase /
 
 
 # turn off www

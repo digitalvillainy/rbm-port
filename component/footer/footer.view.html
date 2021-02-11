@@ -67,18 +67,21 @@
                 <input type="email"
                        required
                        placeholder="smith@example.com"
+                       x-model="emailContents.clientEmail"
                        class="bg-white focus:online-none focus:shadow-outline border border-gray-500
-                      rounded-lg mb-5 py-2 px-4 block w-full appearance-none leading-normal">
-                <input type="email"
+                      rounded-lg mb-5 py-2 px-4 block w-full text-black appearance-none leading-normal">
+                <input type="text"
                        required
                        placeholder="Subject..."
+                       x-model="emailContents.subject"
                        class="bg-white focus:online-none focus:shadow-outline border border-gray-500
-                      rounded-lg mb-5 py-2 px-4 block w-full appearance-none leading-normal">
-                <textarea type="email"
+                      rounded-lg mb-5 py-2 px-4 block w-full text-black appearance-none leading-normal">
+                <textarea type="text"
                           required
                           placeholder="Type message here..."
+                          x-model="emailContents.body"
                           class="bg-white focus:online-none focus:shadow-outline border border-gray-500
-                         rounded-lg mb-5 py-2 px-4 block w-full appearance-none leading-normal">
+                         rounded-lg mb-5 py-2 block w-full text-black appearance-none leading-normal">
             </textarea>
                 <span class="text-primary italic py-2 text-center"
                       x-html="error">

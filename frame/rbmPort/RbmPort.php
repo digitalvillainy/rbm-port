@@ -15,6 +15,7 @@ use Neoan3\Core\Serve;
 class RbmPort extends Serve
 {
     protected array $credentials = [];
+
     /**
      * RbmPort constructor.
      */
@@ -58,10 +59,10 @@ class RbmPort extends Serve
                 'href' => 'https://fonts.googleapis.com/css2?family=Kanit:wght@800&display=swap'
             ],
             'js' => [
-                [path . 'node_modules/axios/dist/axios.min.js'],
+                ['src' => 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'],
                 ['src' => 'https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.6.0/dist/alpine.min.js'],
-                ['src' => 'https://hcaptcha.com/1/api.js', 'attr'=>'async'],
-                [path . '/frame/rbmPort/axios-wrapper.js', 'data' => ['base' => base]]
+                ['src' => 'https://hcaptcha.com/1/api.js', 'attr' => 'async'],
+                ['src' => base . 'frame/rbmPort/axios-wrapper.js', 'data' => ['base' => base]]
             ]
         ];
     }
