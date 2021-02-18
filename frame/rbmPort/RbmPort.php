@@ -5,6 +5,7 @@
 
 namespace Neoan3\Frame;
 
+use Neoan3\Apps\Cache;
 use Neoan3\Apps\Hcapture;
 use Neoan3\Core\Serve;
 
@@ -21,6 +22,7 @@ class RbmPort extends Serve
      */
     function __construct()
     {
+        Cache::setCaching('-2 hours');
         parent::__construct();
         try {
             $this->credentials = getCredentials();

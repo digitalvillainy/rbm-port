@@ -30,7 +30,7 @@
          id="Portfolio">
         <div class="rounded-lg shadow-lg py-4 m-3 w-full lg:w-2/6 xl:w-1/5"
              n-for="ports as key => port">
-            <a href="{{port.link}}" target="_blank">
+            <a href="{{port.link}}" target="_blank" rel="noreferrer">
                 <div class="bg-green-700 hover:bg-green-400 text-white rounded-t-lg
                            px-4 w-full text-xl cursor-pointer">
                     {{port.title}}
@@ -42,7 +42,7 @@
             </p>
             <div class="w-full flex flex-row"
                  n-if="port.icon > 0">
-                <a href="{{port.link}}" target="_blank">
+                <a href="{{port.link}}" target="_blank" rel="noreferrer">
                     <img src="{{port.icon}}" alt="{{port.title}}">
                 </a>
             </div>

@@ -12,7 +12,8 @@
         "neoan3-model/index": "^1",
         "neoan3-apps/transformer": "^1",
         "neoan3-apps/hcaptcha": "dev-master",
-        "sendgrid/sendgrid": "^7.8"
+        "sendgrid/sendgrid": "^7.8",
+        "neoan3-apps/cache": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3"

@@ -4,6 +4,7 @@
 
 namespace Neoan3\Components;
 
+use Neoan3\Apps\Cache;
 use Neoan3\Core\Unicore;
 
 /**
@@ -24,6 +25,7 @@ class Home extends Unicore
         $services = json_decode($serviceJson, true);
         $portfolio = json_decode($portJson, true);
 
+        Cache::write();
         $this
             ->uni('RbmPort')
             ->hook('main', 'home', ['cards' => $services['cards'], 'ports' => $portfolio['ports']])

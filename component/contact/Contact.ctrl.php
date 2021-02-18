@@ -28,7 +28,6 @@ class Contact extends RbmPort{
         if ($human) {
             $this->credentials = getCredentials();
             $apiKey = $this->credentials['rbm_sendgrid']['SENDGRID_API_KEY'];
-
             $email = new Mail();
             $email->setFrom($emailForm['clientEmail'], "Potential Client");
             $email->setSubject($emailForm['subject']);

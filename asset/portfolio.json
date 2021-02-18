@@ -3,7 +3,7 @@
     {
       "title": "WriterBoards",
       "description": "An online community that empowers writers to write everyday and collaborate. Click to find out more",
-      "img": "./asset/writerboards.jpeg",
+      "img": "./asset/servicesStock/writerboards.jpeg",
       "link": "https://writerboards.com",
       "icon":""
     },
@@ -13,6 +13,14 @@
       "img": "./asset/servicesStock/cssCode.jpeg",
       "link": "https://www.npmjs.com/package/ornate_css",
       "icon":""
+    },
+    {
+      "title": "Wyzant Tutoring",
+      "description": "Currently I am tutoring through Wyzant.com! Feel free to look over my profile for more information.",
+      "img": "./asset/servicesStock/tutoring.jpeg",
+      "link": "https://www.wyzant.com/Tutors/rbm-tutoring",
+      "icon":""
     }
+
   ]
 }

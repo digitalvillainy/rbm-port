@@ -64,19 +64,28 @@
               class="rounded-lg mx-4 w-2/6 bg-white"
               @submit.prevent="sendEmail">
             <div class="p-5">
+                <label for="email"
+                       class="text-black">Email</label>
                 <input type="email"
+                       id="email"
                        required
                        placeholder="smith@example.com"
                        x-model="emailContents.clientEmail"
                        class="bg-white focus:online-none focus:shadow-outline border border-gray-500
                       rounded-lg mb-5 py-2 px-4 block w-full text-black appearance-none leading-normal">
+                <label for="subject"
+                       class="text-black">Subject</label>
                 <input type="text"
+                       id="subject"
                        required
                        placeholder="Subject..."
                        x-model="emailContents.subject"
                        class="bg-white focus:online-none focus:shadow-outline border border-gray-500
                       rounded-lg mb-5 py-2 px-4 block w-full text-black appearance-none leading-normal">
+                <label for="contents"
+                       class="text-black">Contents</label>
                 <textarea type="text"
+                          id="contents"
                           required
                           placeholder="Type message here..."
                           x-model="emailContents.body"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab4dab290373e9b33b098912f88a44c0",
+    "content-hash": "34d98fda8401c6a0fd7f53c9decb1f5c",
     "packages": [
         {
             "name": "mnsami/composer-custom-directory-installer",
@@ -68,6 +68,44 @@
                 }
             ],
             "time": "2020-12-07T15:04:18+00:00"
+        },
+        {
+            "name": "neoan3-apps/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sroehrl/neoan3-cache.git",
+                "reference": "c34a4712f21e8a1e7bd4e05e0d61469d696ba6cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sroehrl/neoan3-cache/zipball/c34a4712f21e8a1e7bd4e05e0d61469d696ba6cd",
+                "reference": "c34a4712f21e8a1e7bd4e05e0d61469d696ba6cd",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Neoan3\\Apps\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "neoan",
+                    "email": "neoan@neoan.us"
+                }
+            ],
+            "description": "Caching based on output buffer",
+            "support": {
+                "issues": "https://github.com/sroehrl/neoan3-cache/issues",
+                "source": "https://github.com/sroehrl/neoan3-cache/tree/master"
+            },
+            "time": "2020-12-14T02:06:39+00:00"
         },
         {
             "name": "neoan3-apps/curl",
@@ -2610,7 +2648,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "neoan3-apps/template": 20,
-        "neoan3-apps/hcaptcha": 20
+        "neoan3-apps/hcaptcha": 20,
+        "neoan3-apps/cache": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -125,7 +125,7 @@ class Serve
      */
     function startHtml()
     {
-        $this->html .= '<!doctype html><html><head>{{head}}</head><body x-cloak>';
+        $this->html .= '<!doctype html><html lang="en"><head>{{head}}<meta name="viewport" content="width=device-width, initial-scale=1"></head><body x-cloak>';
         $this->html .= '<style>{{importedStyles}}{{style}}</style>';
         $this->html .= '<header>{{header}}</header><neoan-root></neoan-root><section class="main">{{main}}</section><footer>{{footer}}</footer>';
         $this->html .= '{{importedScripts}}{{scripts}}<script>{{js}}</script>{{modules}}</body></html>';
