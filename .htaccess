@@ -2,7 +2,7 @@
 #Options +FollowSymLinks
 RewriteEngine On
 
-RewriteBase /
+RewriteBase /rbm-port/
 
 
 # turn off www
@@ -52,6 +52,7 @@ ExpiresActive On
 ExpiresDefault "access plus 1 month 1 days"
 ExpiresByType image/gif "access plus 1 year"
 ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
 ExpiresByType image/png "access plus 1 year"
 ExpiresByType text/css "access plus 1 year"
 ExpiresByType text/javascript "access plus 1 month 1 week"

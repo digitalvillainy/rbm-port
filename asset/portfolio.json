@@ -3,21 +3,21 @@
     {
       "title": "WriterBoards",
       "description": "An online community that empowers writers to write everyday and collaborate. Click to find out more",
-      "img": "./asset/servicesStock/writerboards.jpeg",
+      "img": "./asset/servicesStock/writerboards.webp",
       "link": "https://writerboards.com",
       "icon":""
     },
     {
       "title": "Ornate CSS",
       "description": "An open-source grid-based css framework. Visit To find out more.",
-      "img": "./asset/servicesStock/cssCode.jpeg",
+      "img": "./asset/servicesStock/cssCode.webp",
       "link": "https://www.npmjs.com/package/ornate_css",
       "icon":""
     },
     {
       "title": "Wyzant Tutoring",
       "description": "Currently I am tutoring through Wyzant.com! Feel free to look over my profile for more information.",
-      "img": "./asset/servicesStock/tutoring.jpeg",
+      "img": "./asset/servicesStock/tutoring.webp",
       "link": "https://www.wyzant.com/Tutors/rbm-tutoring",
       "icon":""
     }

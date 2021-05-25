@@ -13,10 +13,13 @@
          id="Services">
         <div class="rounded-lg shadow-lg py-4 m-3 w-full lg:w-2/6 xl:w-1/5"
              n-for="cards in card">
-            <div class="bg-green-700 text-white rounded-t-lg
-                           px-4 w-full text-xl">
-                {{card.title}}
-            </div>
+            <!--TODO: Have each card go to a blog entry about said subject-->
+            <a href="./#Contact">
+                <div class="bg-green-700 text-white rounded-t-lg
+                        cursor-pointer hover:bg-green-400 px-4 w-full text-xl">
+                    {{card.title}}
+                </div>
+            </a>
             <img src="{{card.img}}" alt="{{card.description}}">
             <p class="text-base px-4 border-solid border-t-2 border-gray-600">
                 {{card.description}}

@@ -1,44 +1,44 @@
 {
   "cards": [
     {
-      "title": "EMPOWERED CLIENTS",
-      "description": "Regardless of the scale of your project, Red Banner Media will always empower clients with the knowledge they need to make informed decisions on how to scale their business with technology. Every consultation will be provided a customized Road Map to determine the best growth for your business.",
-      "img": "./asset/servicesStock/empoweredClients.jpg"
+      "title": "AUTOMATION",
+      "description": "Websites aren't just billboards for your business. They can be an employee! Find out how to automate different aspects of your business so your sites works for you.",
+      "img": "./asset/servicesStock/automation.webp"
     },
     {
-      "title": "WEB DEVELOPMENT",
-      "description": "Web sites are the new face of a business. We leverage new technology to help give your companies website the user experience that draws new customers.",
-      "img": "./asset/servicesStock/webDev.jpeg"
+      "title": "SERVER DEVELOPMENT",
+      "description": "Every website needs a server and Red Banner Media is more than equipped. We will not only upload your website but we'll make sure it scales with your business easily.",
+      "img": "./asset/servicesStock/empoweredClients.webp"
     },
     {
       "title": "SEO",
       "description": "We empower your business with the necessary tools to begin your journey into Search Engine Optimization. Making it easier for your customers to find and share your services with others.",
-      "img": "./asset/servicesStock/SEO.jpeg"
+      "img": "./asset/servicesStock/SEO.webp"
     },
     {
       "title": "USER EXPERIENCE",
       "description": "From phones to an Ultra-wide desktop monitor, your site will work on any modern device. Making sure that your users never feel alienated.",
-      "img": "./asset/servicesStock/userExp.jpeg"
+      "img": "./asset/servicesStock/userExp.webp"
     },
     {
       "title": "CUSTOMER OUTREACH",
       "description": "Red Banner Media can provide you with the necessary tools to communicate to customers old and new about what your business provides.",
-      "img": "./asset/servicesStock/customerOutreach.jpeg"
+      "img": "./asset/servicesStock/customerOutreach.webp"
     },
     {
       "title": "ECOMMERCE",
       "description": "We can provide you the tools to sell your goods and services online where users will always be able to find them.",
-      "img": "./asset/servicesStock/ecommerce.jpeg"
+      "img": "./asset/servicesStock/ecommerce.webp"
     },
     {
       "title": "ADA COMPLIANCE",
       "description": "Regardless of your users impairment, Red Banner Media will make your website easily accessible to those with Disabilities.",
-      "img": "./asset/servicesStock/adaCompliance.jpeg"
+      "img": "./asset/servicesStock/adaCompliance.webp"
     },
     {
-      "title": "ACTIVE PARTICIPATION",
+      "title": "TRANSPARENCY",
       "description": "There won't be a part of our process that you don't understand. We actively inspire all of our clients to comment, test and add to the road map to their success.",
-      "img": "./asset/servicesStock/activeParticipation.jpg"
+      "img": "./asset/servicesStock/activeParticipation.webp"
     }
   ]
 }
